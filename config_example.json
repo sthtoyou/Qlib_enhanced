@@ -1,0 +1,38 @@
+{
+    "data_settings": {
+        "data_dir": "D:/stk_data/trd/us_data",
+        "financial_data_dir": "D:/stk_data/financial_data",
+        "output_dir": "D:/stk_data/trd/results"
+    },
+    "compute_settings": {
+        "enable_parallel": true,
+        "max_workers": 16,
+        "max_stocks": null,
+        "batch_size": 50
+    },
+    "indicator_settings": {
+        "enable_alpha158": true,
+        "enable_alpha360": true,
+        "enable_technical": true,
+        "enable_candlestick": true,
+        "enable_financial": true,
+        "enable_volatility": true
+    },
+    "output_settings": {
+        "filename": "enhanced_quantitative_indicators.csv",
+        "include_chinese_labels": true,
+        "handle_nan_values": true,
+        "encoding": "utf-8-sig"
+    },
+    "logging_settings": {
+        "log_level": "INFO",
+        "log_file": "qlib_indicators.log",
+        "console_output": true
+    },
+    "advanced_settings": {
+        "memory_limit_mb": 8192,
+        "timeout_seconds": 3600,
+        "retry_count": 3,
+        "cache_enabled": true
+    }
+} 
